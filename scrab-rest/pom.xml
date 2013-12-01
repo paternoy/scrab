@@ -3,7 +3,7 @@
 	<parent>
 		<groupId>com.coopnex</groupId>
 		<artifactId>scrab</artifactId>
-		<version>0.2-SNAPSHOT</version>
+		<version>0.2</version>
 	</parent>
 	<artifactId>scrab-rest</artifactId>
 	<name>Scrab REST Module</name>
