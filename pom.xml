@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.coopnex</groupId>
 	<artifactId>scrab</artifactId>
-	<version>0.1-SNAPSHOT</version>
+	<version>0.1</version>
 	<packaging>pom</packaging>
 	<name>Scrab Project</name>
 
@@ -10,7 +10,8 @@
 		<url>https://github.com/paternoy/scrab</url>
 		<connection>scm:git:git://github.com/paternoy/scrab.git</connection>
 		<developerConnection>scm:git:git@github.com:paternoy/scrab.git</developerConnection>
-	</scm>
+	  <tag>scrab-0.1</tag>
+  </scm>
 
 	<properties>
 		<spring.version>3.2.2.RELEASE</spring.version>
