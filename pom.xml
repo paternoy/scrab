@@ -7,6 +7,12 @@
 	<packaging>pom</packaging>
 	<name>Scrab Project</name>
 
+	<scm>
+		<url>https://github.com/paternoy/scrab</url>
+		<connection>scm:git:git://github.com/paternoy/scrab.git</connection>
+		<developerConnection>scm:git:git@github.com:paternoy/scrab.git</developerConnection>
+	</scm>
+
 	<properties>
 		<spring.version>3.2.2.RELEASE</spring.version>
 		<slf4j.version>1.7.5</slf4j.version>
