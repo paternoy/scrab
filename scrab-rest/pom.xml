@@ -1,0 +1,87 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.coopnex</groupId>
+		<artifactId>scrab</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>scrab-rest</artifactId>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.coopnex</groupId>
+			<artifactId>scrab-service</artifactId>
+			<version>${parent.version}</version>
+		</dependency>
+		<!-- Jackson JSON Mapper -->
+		<dependency>
+			<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-mapper-asl</artifactId>
+			<version>1.7.1</version>
+		</dependency>
+
+		<!-- Spring 3 dependencies -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.hateoas</groupId>
+			<artifactId>spring-hateoas</artifactId>
+			<version>0.6.0.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>aspectj</groupId>
+			<artifactId>aspectjrt</artifactId>
+			<version>1.5.0</version>
+		</dependency>
+		<dependency>
+			<groupId>cglib</groupId>
+			<artifactId>cglib</artifactId>
+			<version>2.2.2</version>
+		</dependency>
+	</dependencies>
+	<packaging>jar</packaging>
+	<!-- <build> -->
+	<!-- <plugins> -->
+	<!-- <plugin> -->
+	<!-- <groupId>org.apache.tomcat.maven</groupId> -->
+	<!-- <artifactId>tomcat7-maven-plugin</artifactId> -->
+	<!-- <version>2.0</version> -->
+	<!-- <configuration> -->
+	<!-- <url>http://localhost:8080/manager/text</url> -->
+	<!-- <server>localhost</server> -->
+	<!-- <update>true</update> -->
+	<!-- </configuration> -->
+	<!-- </plugin> -->
+	<!-- <plugin> -->
+	<!-- <groupId>org.apache.maven.plugins</groupId> -->
+	<!-- <artifactId>maven-war-plugin</artifactId> -->
+	<!-- <configuration> -->
+	<!-- <webXml>src/main/webapp/WEB-INF/web.xml</webXml> -->
+	<!-- </configuration> -->
+	<!-- </plugin> -->
+	<!-- <plugin> -->
+	<!-- <groupId>org.apache.maven.plugins</groupId> -->
+	<!-- <artifactId>maven-eclipse-plugin</artifactId> -->
+	<!-- <version>2.9</version> -->
+	<!-- <configuration> -->
+	<!-- <classpathContainers> -->
+	<!-- <classpathContainer> -->
+	<!-- org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt. -->
+	<!-- internal.debug.ui.launcher.StandardVMType/JavaSE-1.6 -->
+	<!-- </classpathContainer> -->
+	<!-- </classpathContainers> -->
+	<!-- </configuration> -->
+	<!-- </plugin> -->
+	<!-- </plugins> -->
+	<!-- </build> -->
+</project>
