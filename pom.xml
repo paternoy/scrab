@@ -1,8 +1,9 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.coopnex</groupId>
 	<artifactId>scrab</artifactId>
-	<version>0.2-SNAPSHOT</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>Scrab Project</name>
 
@@ -10,8 +11,7 @@
 		<url>https://github.com/paternoy/scrab</url>
 		<connection>scm:git:git://github.com/paternoy/scrab.git</connection>
 		<developerConnection>scm:git:git@github.com:paternoy/scrab.git</developerConnection>
-	  <tag>HEAD</tag>
-  </scm>
+	</scm>
 
 	<properties>
 		<spring.version>3.2.2.RELEASE</spring.version>
