@@ -3,7 +3,7 @@
 	<parent>
 		<groupId>com.coopnex</groupId>
 		<artifactId>scrab</artifactId>
-		<version>0.1</version>
+		<version>0.2-SNAPSHOT</version>
 	</parent>
 	<artifactId>scrab-rest</artifactId>
 	<name>Scrab REST Module</name>
@@ -12,7 +12,6 @@
 		<dependency>
 			<groupId>com.coopnex</groupId>
 			<artifactId>scrab-service</artifactId>
-			<version>${parent.version}</version>
 		</dependency>
 		<!-- Jackson JSON Mapper -->
 		<dependency>
